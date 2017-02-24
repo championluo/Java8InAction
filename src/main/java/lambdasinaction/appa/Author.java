@@ -9,5 +9,5 @@ import java.lang.annotation.RetentionPolicy;
 public @interface Author {
 
     String name();
-
+    int test() default -1;
 }
